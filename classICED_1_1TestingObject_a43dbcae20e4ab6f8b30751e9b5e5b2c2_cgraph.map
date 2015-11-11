@@ -1,0 +1,11 @@
+<map id="Test__DeviceDataMapping" name="Test__DeviceDataMapping">
+<area shape="rect" id="node2" href="$classICED_1_1HalfCell_1_1DeviceData.html#ac62391584f55efe6bd7916ebf7d2e92b" title="Initialization of the entire device data structure. " alt="" coords="235,201,421,242"/>
+<area shape="rect" id="node8" href="$classICED_1_1HalfCell_1_1DeviceData.html#a9e170c875ec6749900cb89bfb977379a" title="Copy device data from the component level. " alt="" coords="473,331,666,373"/>
+<area shape="rect" id="node10" href="$classICED_1_1HalfCell_1_1DeviceData.html#a4c576785732499156ac44948922e6fca" title="Copy device data to the component level. " alt="" coords="235,354,421,395"/>
+<area shape="rect" id="node3" href="$classICED_1_1HalfCell_1_1SolutionData.html#a16b07d4b06e74431a0783cbd6dd6e731" title="Initialization of the input data from input file. " alt="" coords="487,5,652,46"/>
+<area shape="rect" id="node4" href="$classICED_1_1HalfCell_1_1DeviceData.html#a16b07d4b06e74431a0783cbd6dd6e731" title="Initialization of the input data from input file. " alt="" coords="476,70,663,111"/>
+<area shape="rect" id="node5" href="$classICED_1_1HalfCell_1_1DeviceData.html#a9dce6b5d6a4272a04fb399b6b7723c96" title="Initialization of the components from input file. " alt="" coords="476,135,663,177"/>
+<area shape="rect" id="node6" href="$classICED_1_1HalfCell_1_1DeviceData.html#abea9dd513340105152db94ed9f24211a" title="Setup of the global device data structure. " alt="" coords="476,201,663,242"/>
+<area shape="rect" id="node9" href="$classICED_1_1HalfCell_1_1DeviceData.html#af4d13d54a16ba494be74358656df1381" title="Copy device data to global storage for the non&#45;linear solver. " alt="" coords="470,266,669,307"/>
+<area shape="rect" id="node7" href="$classICED_1_1HalfCell_1_1SolutionData.html#a80aaf93c79fb804885351b17786981e4" title="Setup of the trilinosdata structure. " alt="" coords="717,201,883,242"/>
+</map>

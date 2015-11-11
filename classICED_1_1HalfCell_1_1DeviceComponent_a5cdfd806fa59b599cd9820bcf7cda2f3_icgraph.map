@@ -1,0 +1,4 @@
+<map id="InitializeComponent" name="InitializeComponent">
+<area shape="rect" id="node2" href="$classICED_1_1HalfCell_1_1DeviceComponent.html#ac3e788385c83425108793038c831b363" title="Performs initialization of physics module data outside of timestepping. " alt="" coords="192,5,376,32"/>
+<area shape="rect" id="node3" href="$classICED_1_1HalfCell_1_1DeviceComponent.html#a31e18fc12be0455b47cddcf599131bc3" title="Populate the component solution matricies. " alt="" coords="223,56,345,83"/>
+</map>

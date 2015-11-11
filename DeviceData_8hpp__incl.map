@@ -1,0 +1,6 @@
+<map id="DeviceData.hpp" name="DeviceData.hpp">
+<area shape="rect" id="node3" href="$HalfCell_8hpp.html" title="Program interface for the monolithic battery simulation software. " alt="" coords="1154,245,1248,272"/>
+<area shape="rect" id="node6" href="$SolutionData_8hpp.html" title="C++ header file for the SolutionData class. " alt="" coords="437,171,560,197"/>
+<area shape="rect" id="node15" href="$DeviceComponent_8hpp.html" title="C++ header file for the DeviceComponent class. " alt="" coords="640,88,795,115"/>
+<area shape="rect" id="node16" href="$PhysicsModule_8hpp.html" title="C++ header file for the ElectrodeSolver class. " alt="" coords="1171,171,1307,197"/>
+</map>

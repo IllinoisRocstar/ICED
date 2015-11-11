@@ -1,0 +1,10 @@
+<map id="TestICED.H" name="TestICED.H">
+<area shape="rect" id="node2" href="$ICEDTest_8H.html" title="Testing object for ICED. " alt="" coords="2428,80,2522,107"/>
+<area shape="rect" id="node3" href="$HalfCell_8hpp.html" title="Program interface for the monolithic battery simulation software. " alt="" coords="1641,560,1735,587"/>
+<area shape="rect" id="node6" href="$DeviceData_8hpp.html" title="C++ header file for the DeviceData class. " alt="" coords="814,320,930,347"/>
+<area shape="rect" id="node27" href="$DeviceModel_8hpp.html" title="C++ header file for the DeviceModel class. " alt="" coords="1576,163,1699,189"/>
+<area shape="rect" id="node31" href="$Solver_8hpp.html" title="C++ header file for the SolutionData class. " alt="" coords="1686,245,1770,272"/>
+<area shape="rect" id="node8" href="$SolutionData_8hpp.html" title="C++ header file for the SolutionData class. " alt="" coords="387,485,510,512"/>
+<area shape="rect" id="node17" href="$DeviceComponent_8hpp.html" title="C++ header file for the DeviceComponent class. " alt="" coords="254,403,408,429"/>
+<area shape="rect" id="node18" href="$PhysicsModule_8hpp.html" title="C++ header file for the ElectrodeSolver class. " alt="" coords="1363,485,1499,512"/>
+</map>

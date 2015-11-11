@@ -1,0 +1,25 @@
+<map id="PhysicsModule.hpp" name="PhysicsModule.hpp">
+<area shape="rect" id="node2" href="$DeviceComponent_8hpp.html" title="C++ header file for the DeviceComponent class. " alt="" coords="257,80,412,107"/>
+<area shape="rect" id="node15" href="$ActivityCoefficient_8cpp.html" title="C++ source file for ActivityCoefficient module functions. " alt="" coords="436,80,591,107"/>
+<area shape="rect" id="node16" href="$ButlerVolmer_8cpp.html" title="C++ source file for ButlerVolmer module functions. " alt="" coords="615,80,737,107"/>
+<area shape="rect" id="node17" href="$ConcentrationDiffusion_8cpp.html" title="C++ source file for ConcentrationDiffusion module functions. " alt="" coords="762,80,941,107"/>
+<area shape="rect" id="node18" href="$Diffusion_8cpp.html" title="C++ source file for Diffusion module function. " alt="" coords="967,80,1065,107"/>
+<area shape="rect" id="node12" href="$HalfCell_8cpp.html" title="Solver for a battery half cell. " alt="" coords="453,304,547,331"/>
+<area shape="rect" id="node19" href="$Intercalation_8cpp.html" title="C++ source file for Intercalation module functions. " alt="" coords="1141,80,1259,107"/>
+<area shape="rect" id="node20" href="$IonMigration_8cpp.html" title="C++ source file for ionMigration module functions. " alt="" coords="1283,80,1401,107"/>
+<area shape="rect" id="node21" href="$OhmsLawElectrolyte_8cpp.html" title="C++ source file for OhmsLawElectrolyte module functions. " alt="" coords="1427,80,1595,107"/>
+<area shape="rect" id="node22" href="$OhmsLawSolid_8cpp.html" title="C++ source file for OhmsLawObject module functions. " alt="" coords="1619,80,1753,107"/>
+<area shape="rect" id="node23" href="$TransferenceNumber_8cpp.html" title="C++ source file for TransferenceNumber module functions. " alt="" coords="1778,80,1947,107"/>
+<area shape="rect" id="node24" href="$WallFlux_8cpp.html" title="C++ source file for butlerVolmer module functions. " alt="" coords="1972,80,2071,107"/>
+<area shape="rect" id="node3" href="$DeviceData_8hpp.html" title="C++ header file for the DeviceData class. " alt="" coords="277,155,392,181"/>
+<area shape="rect" id="node14" href="$DeviceComponent_8cpp.html" title="C++ source code for the Device Component class. " alt="" coords="417,155,572,181"/>
+<area shape="rect" id="node4" href="$Solver_8hpp.html" title="C++ header file for the SolutionData class. " alt="" coords="293,229,376,256"/>
+<area shape="rect" id="node11" href="$DeviceData_8cpp.html" title="C++ source code for the DeviceData class. " alt="" coords="5,304,120,331"/>
+<area shape="rect" id="node7" href="$ICEDTest_8H.html" title="Testing object for ICED. " alt="" coords="367,379,461,405"/>
+<area shape="rect" id="node5" href="$DeviceModel_8hpp.html" title="C++ header file for the DeviceModel class. " alt="" coords="145,304,268,331"/>
+<area shape="rect" id="node13" href="$Solver_8cpp.html" title="C++ source code for the DeviceData class. " alt="" coords="293,304,376,331"/>
+<area shape="rect" id="node6" href="$DeviceModel_8cpp.html" title="C++ source code for the DeviceData class. " alt="" coords="145,379,268,405"/>
+<area shape="rect" id="node8" href="$TestICED_8H.html" title="Testing utilities for ICED. " alt="" coords="367,453,461,480"/>
+<area shape="rect" id="node9" href="$ParallelTestICED_8C.html" title="Implements a command&#45;line interface for the ICED tests. " alt="" coords="275,528,413,555"/>
+<area shape="rect" id="node10" href="$TestICED_8C.html" title="Implements a command&#45;line interface for the ICED tests. " alt="" coords="438,528,532,555"/>
+</map>

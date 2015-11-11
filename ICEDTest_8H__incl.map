@@ -1,0 +1,9 @@
+<map id="ICEDTest.H" name="ICEDTest.H">
+<area shape="rect" id="node2" href="$HalfCell_8hpp.html" title="Program interface for the monolithic battery simulation software. " alt="" coords="1641,485,1735,512"/>
+<area shape="rect" id="node5" href="$DeviceData_8hpp.html" title="C++ header file for the DeviceData class. " alt="" coords="814,245,930,272"/>
+<area shape="rect" id="node26" href="$DeviceModel_8hpp.html" title="C++ header file for the DeviceModel class. " alt="" coords="1576,88,1699,115"/>
+<area shape="rect" id="node30" href="$Solver_8hpp.html" title="C++ header file for the SolutionData class. " alt="" coords="1686,171,1770,197"/>
+<area shape="rect" id="node7" href="$SolutionData_8hpp.html" title="C++ header file for the SolutionData class. " alt="" coords="387,411,510,437"/>
+<area shape="rect" id="node16" href="$DeviceComponent_8hpp.html" title="C++ header file for the DeviceComponent class. " alt="" coords="254,328,408,355"/>
+<area shape="rect" id="node17" href="$PhysicsModule_8hpp.html" title="C++ header file for the ElectrodeSolver class. " alt="" coords="1363,411,1499,437"/>
+</map>

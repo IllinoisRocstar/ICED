@@ -1,0 +1,14 @@
+<map id="DeviceComponent.hpp" name="DeviceComponent.hpp">
+<area shape="rect" id="node2" href="$DeviceData_8hpp.html" title="C++ header file for the DeviceData class. " alt="" coords="359,80,475,107"/>
+<area shape="rect" id="node13" href="$DeviceComponent_8cpp.html" title="C++ source code for the Device Component class. " alt="" coords="500,80,655,107"/>
+<area shape="rect" id="node3" href="$Solver_8hpp.html" title="C++ header file for the SolutionData class. " alt="" coords="314,155,397,181"/>
+<area shape="rect" id="node10" href="$DeviceData_8cpp.html" title="C++ source code for the DeviceData class. " alt="" coords="5,229,120,256"/>
+<area shape="rect" id="node11" href="$HalfCell_8cpp.html" title="Solver for a battery half cell. " alt="" coords="453,229,547,256"/>
+<area shape="rect" id="node6" href="$ICEDTest_8H.html" title="Testing object for ICED. " alt="" coords="367,304,461,331"/>
+<area shape="rect" id="node4" href="$DeviceModel_8hpp.html" title="C++ header file for the DeviceModel class. " alt="" coords="145,229,268,256"/>
+<area shape="rect" id="node12" href="$Solver_8cpp.html" title="C++ source code for the DeviceData class. " alt="" coords="293,229,376,256"/>
+<area shape="rect" id="node5" href="$DeviceModel_8cpp.html" title="C++ source code for the DeviceData class. " alt="" coords="145,304,268,331"/>
+<area shape="rect" id="node7" href="$TestICED_8H.html" title="Testing utilities for ICED. " alt="" coords="367,379,461,405"/>
+<area shape="rect" id="node8" href="$ParallelTestICED_8C.html" title="Implements a command&#45;line interface for the ICED tests. " alt="" coords="275,453,413,480"/>
+<area shape="rect" id="node9" href="$TestICED_8C.html" title="Implements a command&#45;line interface for the ICED tests. " alt="" coords="438,453,532,480"/>
+</map>

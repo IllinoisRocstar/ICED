@@ -1,0 +1,25 @@
+<map id="CopyDeviceToGlobalStorage" name="CopyDeviceToGlobalStorage">
+<area shape="rect" id="node2" href="$classICED_1_1HalfCell_1_1DeviceData.html#ac62391584f55efe6bd7916ebf7d2e92b" title="Initialization of the entire device data structure. " alt="" coords="246,493,338,519"/>
+<area shape="rect" id="node3" href="$classICED_1_1TestingObject.html#a7995a39337d2ec045b02982b1b346b28" title="Function called by Test__Intercalation. " alt="" coords="395,401,562,443"/>
+<area shape="rect" id="node10" href="$classICED_1_1TestingObject.html#aea517fa85afb367c872ce72c26a0d643" title="Test for ICED::ActivitCoefficient module. " alt="" coords="658,445,835,487"/>
+<area shape="rect" id="node11" href="$classICED_1_1TestingObject.html#a2f898efd73e9aaf601f0733cb31fc340" title="Test for ICED::ButlerVolmer. " alt="" coords="674,511,819,552"/>
+<area shape="rect" id="node12" href="$classICED_1_1TestingObject.html#a7bac98c894f8cfff372d495eae083cd5" title="Tests the input file error checking functions using testModule and a generated &quot;bad&quot; input file..." alt="" coords="391,11,567,52"/>
+<area shape="rect" id="node13" href="$classICED_1_1TestingObject.html#afedc7e682315a3e766d614e09631ab04" title="Tests the input file error checking functions using testModule and a generated &quot;good&quot; input file..." alt="" coords="387,104,571,145"/>
+<area shape="rect" id="node14" href="$classICED_1_1TestingObject.html#a8218a8aab213585d0fba3f2e1aa24b76" title="Test for ICED::ComponentBoundaryConditions. " alt="" coords="619,707,874,748"/>
+<area shape="rect" id="node15" href="$classICED_1_1TestingObject.html#a96409144efe94cf3e37a534e524c6e36" title="Test for ICED::ConcentrationDiffusion. " alt="" coords="645,772,848,813"/>
+<area shape="rect" id="node16" href="$classICED_1_1TestingObject.html#a20a3def5cfb0861690599ae120367987" title="Test for ICED::DeviceData. " alt="" coords="675,837,819,879"/>
+<area shape="rect" id="node17" href="$classICED_1_1TestingObject.html#a43dbcae20e4ab6f8b30751e9b5e5b2c2" title="Test for ICED::DeviceDataMapping. " alt="" coords="653,903,841,944"/>
+<area shape="rect" id="node18" href="$classICED_1_1TestingObject.html#a06cf16fc934c4e87f6886a7beb771b0e" title="Test for ICED::Diffusion module. " alt="" coords="675,968,819,1009"/>
+<area shape="rect" id="node19" href="$classICED_1_1TestingObject.html#af46c6cb015fb4151707a8c08084f4525" title="Test for ICED::IonMigration module. " alt="" coords="675,119,819,160"/>
+<area shape="rect" id="node20" href="$classICED_1_1TestingObject.html#a263e8cc9d4d10cb3b749c8946ebcae72" title="Test for ICED::DeviceComponent. " alt="" coords="670,184,823,225"/>
+<area shape="rect" id="node21" href="$classICED_1_1TestingObject.html#a4f825a89973b92c36e2fe2cbe6a653a0" title="Test for ICED::OhmsLawElectrolyte. " alt="" coords="651,249,842,291"/>
+<area shape="rect" id="node22" href="$classICED_1_1TestingObject.html#ab656a16700e242a40e0b21d7693a6ae0" title="Test for ICED::OhmsLawSolid. " alt="" coords="667,315,826,356"/>
+<area shape="rect" id="node23" href="$classICED_1_1TestingObject.html#aacdc6512e5ce8094c62997f4d1f02634" title="Test for ICED::TransferenceNumber. " alt="" coords="651,576,843,617"/>
+<area shape="rect" id="node24" href="$classICED_1_1TestingObject.html#a9bbc638a5bd612413bdd4c03b6c66d0c" title="Test for ICED::wallFlux. " alt="" coords="675,641,819,683"/>
+<area shape="rect" id="node4" href="$classICED_1_1TestingObject.html#adcd8b620aa1ea5a579a671ac15b5620b" title="Test for ICED::Intercalation. " alt="" coords="675,380,819,421"/>
+<area shape="rect" id="node5" href="$classICED_1_1TestingObject.html#a046f7ab06db0acf616b0d2bf3d3146aa" title="Runs all tests implemented by the ICED::TestingObject. " alt="" coords="923,479,1067,520"/>
+<area shape="rect" id="node8" href="$classICED_1_1TestingObject.html#af1f07f14b9af7708e4264bb38937eed2" title="Runs a test specified by name. " alt="" coords="923,544,1067,585"/>
+<area shape="rect" id="node6" href="$namespaceICED.html#acf52cefdb153ca8751acb1e183d3a405" title="Drives the ICED::TestObject. " alt="" coords="1142,490,1231,517"/>
+<area shape="rect" id="node7" href="$TestICED_8C.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="1307,490,1357,517"/>
+<area shape="rect" id="node9" href="$classICED_1_1TestingObject.html#a21159bd2efac623e5a5079f6a20f3444" title="Runs a list of tests specified by name. " alt="" coords="1115,544,1259,585"/>
+</map>

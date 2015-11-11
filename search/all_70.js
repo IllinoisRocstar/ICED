@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['paralleltest',['ParallelTest',['../namespaceICED.html#aa6241b62ab2b34ba8ee134f8e7fa0580',1,'ICED']]],
+  ['paralleltesticed_2ec',['ParallelTestICED.C',['../ParallelTestICED_8C.html',1,'']]],
+  ['pdevice',['pDevice',['../classICED_1_1HalfCell_1_1SolverInterface.html#a4bf8e262f3cd18ffa5d9eb3a6270e93f',1,'ICED::HalfCell::SolverInterface']]],
+  ['pdevicedata',['pDeviceData',['../classICED_1_1TestingObject.html#ab93fca5b19b327952394f2f803b474ff',1,'ICED::TestingObject']]],
+  ['pepetramap',['pEpetraMap',['../classICED_1_1HalfCell_1_1DeviceModel.html#a67cdd5b678e07005396292c0d6a3ed70',1,'ICED::HalfCell::DeviceModel']]],
+  ['pepi_2ec',['pepi.C',['../pepi_8C.html',1,'']]],
+  ['phi_5fe',['phi_e',['../namespaceICED_1_1HalfCell.html#ab17cffca265630e7a0003ffcb3ebbe02a3bfbbc95b6f4e451c1937c64f4b68772',1,'ICED::HalfCell']]],
+  ['phi_5fs',['phi_s',['../namespaceICED_1_1HalfCell.html#ab17cffca265630e7a0003ffcb3ebbe02a4f050477ff4018eddf57fdb9cc13221e',1,'ICED::HalfCell']]],
+  ['physicsmodule',['PhysicsModule',['../classICED_1_1HalfCell_1_1PhysicsModule.html#afb8cce1b77073af99ba9fbd3de17f1c7',1,'ICED::HalfCell::PhysicsModule::PhysicsModule()'],['../classICED_1_1HalfCell_1_1PhysicsModule.html#aef8f28d1e7475aaf65f2bf8e66b3729c',1,'ICED::HalfCell::PhysicsModule::PhysicsModule(SolutionData *solutionData, GlobalType &amp;globin)']]],
+  ['physicsmodule',['PhysicsModule',['../classICED_1_1HalfCell_1_1PhysicsModule.html',1,'ICED::HalfCell']]],
+  ['physicsmodule_2ehpp',['PhysicsModule.hpp',['../PhysicsModule_8hpp.html',1,'']]],
+  ['pi',['PI',['../classICED_1_1HalfCell_1_1SolutionData.html#a4e36555c8609254715858261f34dfd94',1,'ICED::HalfCell::SolutionData::PI()'],['../Intercalation_8cpp.html#a598a3330b3c21701223ee0ca14316eca',1,'PI():&#160;Intercalation.cpp'],['../ICEDTest_8H.html#a598a3330b3c21701223ee0ca14316eca',1,'PI():&#160;ICEDTest.H']]],
+  ['pmodeldevicedata',['pModelDeviceData',['../classICED_1_1HalfCell_1_1DeviceModel.html#a2a6ee736a74efb0bc77618a686bd6302',1,'ICED::HalfCell::DeviceModel']]],
+  ['polymermaxconcentration',['polymerMaxConcentration',['../classICED_1_1HalfCell_1_1SolutionData.html#ad0b78bb96891b22039e8ebd7d47f0777',1,'ICED::HalfCell::SolutionData']]],
+  ['poreradius',['poreRadius',['../classICED_1_1HalfCell_1_1SolutionData.html#a38ff7c61da2cb1eb0c4efa7fa31e4e24',1,'ICED::HalfCell::SolutionData']]],
+  ['powermethod',['powerMethod',['../namespaceICED_1_1HalfCell.html#a94e9deea16584c37dd2658fc9a14adab',1,'ICED::HalfCell']]],
+  ['prevconcs',['prevConcS',['../classICED_1_1HalfCell_1_1Intercalation.html#a2f31d252598029062370e89c338a3cf1',1,'ICED::HalfCell::Intercalation']]],
+  ['prevtime',['prevTime',['../classICED_1_1HalfCell_1_1Intercalation.html#a2d39b99b2b3ecf1edc8636bc140abcd5',1,'ICED::HalfCell::Intercalation']]],
+  ['process',['Process',['../classICED_1_1TestingObject.html#a046f7ab06db0acf616b0d2bf3d3146aa',1,'ICED::TestingObject']]],
+  ['processtests',['ProcessTests',['../classICED_1_1TestingObject.html#a21159bd2efac623e5a5079f6a20f3444',1,'ICED::TestingObject']]],
+  ['profilertype',['ProfilerType',['../namespaceICED_1_1ExampleProgram.html#a3cbecebccd80835aeeeac10d4c471cea',1,'ICED::ExampleProgram::ProfilerType()'],['../namespaceICED_1_1HalfCell.html#a3cbecebccd80835aeeeac10d4c471cea',1,'ICED::HalfCell::ProfilerType()']]],
+  ['programtype',['ProgramType',['../BatterySim_8cpp.html#a192e12c14f8dc2124505ee3972e68245',1,'ProgramType():&#160;BatterySim.cpp'],['../pepi_8C.html#ab43fb05b27193870bd481f3780633a66',1,'ProgramType():&#160;pepi.C'],['../sep_8C.html#a839932ef46267de954d77cf515e55bde',1,'ProgramType():&#160;sep.C']]],
+  ['prologue',['Prologue',['../classICED_1_1TestingObject.html#aa3cdb6d60e9d9834c19efaab0b044421',1,'ICED::TestingObject']]],
+  ['psolutiondata',['pSolutionData',['../classICED_1_1HalfCell_1_1DeviceComponent.html#a7c30019fc4a2a4edc24529f86398cd57',1,'ICED::HalfCell::DeviceComponent::pSolutionData()'],['../classICED_1_1HalfCell_1_1DeviceData.html#a7c30019fc4a2a4edc24529f86398cd57',1,'ICED::HalfCell::DeviceData::pSolutionData()'],['../classICED_1_1HalfCell_1_1PhysicsModule.html#a18674158a96f67741ee3923729b39aae',1,'ICED::HalfCell::PhysicsModule::pSolutionData()']]],
+  ['ptransientsolverinterface',['pTransientSolverInterface',['../classICED_1_1HalfCell_1_1DeviceModel.html#aac4d45a78f1f42665c265f32dff97bfa',1,'ICED::HalfCell::DeviceModel']]]
+];
