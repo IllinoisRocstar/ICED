@@ -19,8 +19,6 @@ var searchData=
   ['exampleserialprogram_2ec',['ExampleSerialProgram.C',['../ExampleSerialProgram_8C.html',1,'']]],
   ['examplesourcefile_2ec',['ExampleSourceFile.C',['../ExampleSourceFile_8C.html',1,'']]],
   ['exampletestfixture',['ExampleTestFixture',['../classICED_1_1TestingObject_a6e31821d18a96efcd602614dce3690df.html#a6e31821d18a96efcd602614dce3690df',1,'ICED::TestingObject']]],
-  ['external_20build',['External Build',['../external_build.html',1,'']]],
-  ['external_5fbuild_2edox',['external_build.dox',['../external__build_8dox.html',1,'']]],
   ['external_5flinux_2edox',['external_linux.dox',['../external__linux_8dox.html',1,'']]],
   ['external_5fmac_2edox',['external_mac.dox',['../external__mac_8dox.html',1,'']]]
 ];

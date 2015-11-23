@@ -5,7 +5,7 @@ var classICED_1_1HalfCell_1_1PhysicsModule =
     [ "~PhysicsModule", "classICED_1_1HalfCell_1_1PhysicsModule_ad93acb63a5e74e1360dc36f3d664f80d.html#ad93acb63a5e74e1360dc36f3d664f80d", null ],
     [ "ApplyDirichletBC", "classICED_1_1HalfCell_1_1PhysicsModule_acaa045770173553f4697d9e466d4531a.html#acaa045770173553f4697d9e466d4531a", null ],
     [ "ApplyNeumannBC", "classICED_1_1HalfCell_1_1PhysicsModule_ae7978f8b320c3e7e19c5b751e14bbf59.html#ae7978f8b320c3e7e19c5b751e14bbf59", null ],
-    [ "CheckParams", "classICED_1_1HalfCell_1_1PhysicsModule_a84ea872c3e4d61853403bd519f655812.html#a84ea872c3e4d61853403bd519f655812", null ],
+    [ "CheckParams", "classICED_1_1HalfCell_1_1PhysicsModule_a788e2bc72624589d824da4934f4c7b82.html#a788e2bc72624589d824da4934f4c7b82", null ],
     [ "Initialize", "classICED_1_1HalfCell_1_1PhysicsModule_a98b1050f09da390896f964fb7a892391.html#a98b1050f09da390896f964fb7a892391", null ],
     [ "InitializePhysics", "classICED_1_1HalfCell_1_1PhysicsModule_adb8fc779a8c9f73bac04af4dbbe6daa0.html#adb8fc779a8c9f73bac04af4dbbe6daa0", null ],
     [ "SetPriority", "classICED_1_1HalfCell_1_1PhysicsModule_a29f30f95e80ec3cc7239cbfcfebc9cd9.html#a29f30f95e80ec3cc7239cbfcfebc9cd9", null ],

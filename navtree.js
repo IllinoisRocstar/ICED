@@ -7,12 +7,6 @@ var NAVTREE =
       [ "Simulation Instantiation", "iced_controli_flow.html#iced_simulation_instantiation", null ],
       [ "Solver Execution", "iced_controli_flow.html#iced_solver_execution", null ]
     ] ],
-    [ "External Build", "external_build.html", [
-      [ "Directory preparation", "external_build.html#Dir_Prep", null ],
-      [ "Building IMPACT and IRAD", "external_build.html#IMPACT_ICED", null ],
-      [ "Building Trilinos", "external_build.html#build_trilinois", null ],
-      [ "Building ICED", "external_build.html#build_iced", null ]
-    ] ],
     [ "Test List", "test.html", null ],
     [ "Todo List", "todo.html", null ],
     [ "Bug List", "bug.html", null ],

@@ -761,7 +761,7 @@ $(document).ready(function(){initNavTree('DeviceData_8cpp_source.html','');});
 <div class="line"><a name="l00676"></a><span class="lineno">  676</span>&#160;        <span class="comment">//call one for every physics module: Intercalation::CheckParams, Diffusion::CheckParams, etc. Add an idealParameters variable in each of those classes and populate.</span></div>
 <div class="line"><a name="l00677"></a><span class="lineno">  677</span>&#160;        std::vector&lt;PhysicsModule*&gt;::iterator It;</div>
 <div class="line"><a name="l00678"></a><span class="lineno">  678</span>&#160;        <span class="keywordflow">for</span> (It = <a class="code" href="classICED_1_1HalfCell_1_1DeviceData_afb677294cb6cf9130e86f49abe6b80ec.html#afb677294cb6cf9130e86f49abe6b80ec">deviceComponents</a>[i]-&gt;componentPhysicsModules.begin(); It != <a class="code" href="classICED_1_1HalfCell_1_1DeviceData_afb677294cb6cf9130e86f49abe6b80ec.html#afb677294cb6cf9130e86f49abe6b80ec">deviceComponents</a>[i]-&gt;componentPhysicsModules.end(); ++It) {       </div>
-<div class="line"><a name="l00679"></a><span class="lineno">  679</span>&#160;        error = (*It)-&gt;CheckParams((componentParameters[i]));</div>
+<div class="line"><a name="l00679"></a><span class="lineno">  679</span>&#160;        error = (*It)-&gt;CheckParams((componentParameters[i]), (deviceParameters));</div>
 <div class="line"><a name="l00680"></a><span class="lineno">  680</span>&#160;        <span class="keywordflow">if</span> (error&gt;0) {</div>
 <div class="line"><a name="l00681"></a><span class="lineno">  681</span>&#160;        FunctionExit(<span class="stringliteral">&quot;BuildDevice&quot;</span>);</div>
 <div class="line"><a name="l00682"></a><span class="lineno">  682</span>&#160;        <span class="keywordflow">return</span>(1);</div>
@@ -956,7 +956,7 @@ $(document).ready(function(){initNavTree('DeviceData_8cpp_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_fd3a82303f5206df56505f8b5712131f.html">Physics</a></li><li class="navelem"><a class="el" href="dir_b87e3d395fce07e1e9372f4489e2cc02.html">src</a></li><li class="navelem"><a class="el" href="DeviceData_8cpp.html">DeviceData.cpp</a></li>
-    <li class="footer">Generated on Mon Nov 23 2015 13:10:49 for ICED_Physics by
+    <li class="footer">Generated on Mon Nov 23 2015 13:33:55 for ICED_Physics by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

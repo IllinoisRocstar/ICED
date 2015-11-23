@@ -4,7 +4,7 @@ var searchData=
   ['capabilities_2edox',['Capabilities.dox',['../Capabilities_8dox.html',1,'']]],
   ['cathodicrateconstant',['cathodicRateConstant',['../classICED_1_1HalfCell_1_1SolutionData_a30f503868cd4a790b9474a256acda81e.html#a30f503868cd4a790b9474a256acda81e',1,'ICED::HalfCell::SolutionData']]],
   ['chargenumber',['chargeNumber',['../classICED_1_1HalfCell_1_1SolutionData_a2b33a94f82033b1cae6bf15f94ab14df.html#a2b33a94f82033b1cae6bf15f94ab14df',1,'ICED::HalfCell::SolutionData']]],
-  ['checkparams',['CheckParams',['../classICED_1_1HalfCell_1_1PhysicsModule_a84ea872c3e4d61853403bd519f655812.html#a84ea872c3e4d61853403bd519f655812',1,'ICED::HalfCell::PhysicsModule']]],
+  ['checkparams',['CheckParams',['../classICED_1_1HalfCell_1_1PhysicsModule_a788e2bc72624589d824da4934f4c7b82.html#a788e2bc72624589d824da4934f4c7b82',1,'ICED::HalfCell::PhysicsModule']]],
   ['coding_2edox',['Coding.dox',['../Coding_8dox.html',1,'']]],
   ['comlinetype',['ComLineType',['../namespaceICED_1_1ExampleProgram_a9ff923689c4898685d3ee020b2efb874.html#a9ff923689c4898685d3ee020b2efb874',1,'ICED::ExampleProgram::ComLineType()'],['../namespaceICED_1_1HalfCell_aaf1eee94d89d3a53b93d85c445a2346a.html#aaf1eee94d89d3a53b93d85c445a2346a',1,'ICED::HalfCell::ComLineType()']]],
   ['comm',['comm',['../classICED_1_1HalfCell_1_1SolutionData_a686d858ce03dc2784d55b6da4d59c851.html#a686d858ce03dc2784d55b6da4d59c851',1,'ICED::HalfCell::SolutionData']]],
