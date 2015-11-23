@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classICED_1_1HalfCell_1_1DeviceComponent.html" target="_top" xlink:title="Class to hold the solution data for the electro&#45;chemical device solver. ">
+<g id="a_node2"><a xlink:href="classICED_1_1HalfCell_1_1DeviceComponent.html" target="_top" xlink:title="Class that provides the component level interface between the electro&#45;chemical device solver and the ...">
 <polygon fill="none" stroke="black" points="120,-323.5 120,-342.5 218,-342.5 218,-323.5 120,-323.5"/>
 <text text-anchor="middle" x="169" y="-330.5" font-family="Helvetica,sans-Serif" font-size="10.00">DeviceComponent</text>
 </a>
@@ -28,7 +28,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classICED_1_1HalfCell_1_1DeviceData.html" target="_top" xlink:title="Class to hold the solution data for the electro&#45;chemical device solver. ">
+<g id="a_node3"><a xlink:href="classICED_1_1HalfCell_1_1DeviceData.html" target="_top" xlink:title="Class to hold the solution data for the electro&#45;chemical device solver and interface to the Trilinos ...">
 <polygon fill="none" stroke="black" points="135,-285.5 135,-304.5 203,-304.5 203,-285.5 135,-285.5"/>
 <text text-anchor="middle" x="169" y="-292.5" font-family="Helvetica,sans-Serif" font-size="10.00">DeviceData</text>
 </a>

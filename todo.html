@@ -95,53 +95,55 @@ $(document).ready(function(){initNavTree('todo.html','');});
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><dl class="reflist">
-<dt><a class="anchor" id="_todo000015"></a>Member <a class="el" href="classICED_1_1HalfCell_1_1ActivityCoefficient.html#acfbdf2d6a1bd474786c2f1c0bdf14dde">ActivityCoefficient::SolvePhysics</a>  ()</dt>
+<dt><a class="anchor" id="_todo000015"></a>Member <a class="el" href="classICED_1_1HalfCell_1_1ActivityCoefficient_acfbdf2d6a1bd474786c2f1c0bdf14dde.html#acfbdf2d6a1bd474786c2f1c0bdf14dde">ActivityCoefficient::SolvePhysics</a>  ()</dt>
 <dd>Consider modifying ActivityCoefficient SolvePhysics function to be P and T dependent. Since it is a dimensionless quantity and in one of the governing equations, we take the natural log (not sure how it could depend on concentration).  </dd>
-<dt><a class="anchor" id="_todo000001"></a>Member <a class="el" href="classICED_1_1HalfCell_1_1DeviceComponent.html#a184ab86f6408a63c856a50a9ea41a9f2">DeviceComponent::DeviceComponent</a>  (const std::vector&lt; std::string &gt; &amp;inputNames, const SolutionData &amp;solnData, GlobalType &amp;globin)</dt>
-<dd><p class="startdd">Does SolutionData need a Copy constructor, or is a shallow copy ok here? </p>
-<p class="enddd">Evaluate this whole thing for a refactor. Surely I can make this better...  </p>
-</dd>
-<dt><a class="anchor" id="_todo000002"></a>Member <a class="el" href="classICED_1_1HalfCell_1_1DeviceComponent.html#a98b1050f09da390896f964fb7a892391">DeviceComponent::Initialize</a>  ()</dt>
+<dt><a class="anchor" id="_todo000001"></a>Member <a class="el" href="classICED_1_1HalfCell_1_1DeviceComponent_a184ab86f6408a63c856a50a9ea41a9f2.html#a184ab86f6408a63c856a50a9ea41a9f2">DeviceComponent::DeviceComponent</a>  (const std::vector&lt; std::string &gt; &amp;inputNames, const SolutionData &amp;solnData, GlobalType &amp;globin)</dt>
+<dd>Add Copy constructor to SolutionData to encapsulate some of the things I do here  </dd>
+<dt><a class="anchor" id="_todo000002"></a>Member <a class="el" href="classICED_1_1HalfCell_1_1DeviceComponent_a98b1050f09da390896f964fb7a892391.html#a98b1050f09da390896f964fb7a892391">DeviceComponent::Initialize</a>  ()</dt>
 <dd>This is a candiate for refactor. I think this is more than a little confusing and there is a bit of code duplication between SolutionData and DeviceComponent  </dd>
-<dt><a class="anchor" id="_todo000004"></a>Member <a class="el" href="classICED_1_1HalfCell_1_1DeviceComponent.html#a429b0bbb2207c143d816442118c67887">DeviceComponent::InitializeBoundary</a>  (IRAD::Util::Parameters params)</dt>
-<dd>Add test  </dd>
-<dt><a class="anchor" id="_todo000003"></a>Member <a class="el" href="classICED_1_1HalfCell_1_1DeviceComponent.html#a2aac658c3abbef6e40bf236ccf2faf12">DeviceComponent::LoadModules</a>  (IRAD::Util::Parameters params)</dt>
-<dd>Add test  </dd>
-<dt><a class="anchor" id="_todo000005"></a>Member <a class="el" href="classICED_1_1HalfCell_1_1DeviceComponent.html#a31e18fc12be0455b47cddcf599131bc3">DeviceComponent::SolveComponent</a>  ()</dt>
+<dt><a class="anchor" id="_todo000003"></a>Member <a class="el" href="classICED_1_1HalfCell_1_1DeviceComponent_a31e18fc12be0455b47cddcf599131bc3.html#a31e18fc12be0455b47cddcf599131bc3">DeviceComponent::SolveComponent</a>  ()</dt>
 <dd>Break this into ComputeF and ComputeJ to speed up non-linear solutions  </dd>
-<dt><a class="anchor" id="_todo000006"></a>Member <a class="el" href="classICED_1_1HalfCell_1_1DeviceData.html#ac62391584f55efe6bd7916ebf7d2e92b">DeviceData::BuildDevice</a>  (IRAD::Util::Parameters &amp;deviceParameters, std::vector&lt; IRAD::Util::Parameters &gt; &amp;componentParameters)</dt>
+<dt><a class="anchor" id="_todo000006"></a>Member <a class="el" href="classICED_1_1HalfCell_1_1DeviceData_ac62391584f55efe6bd7916ebf7d2e92b.html#ac62391584f55efe6bd7916ebf7d2e92b">DeviceData::BuildDevice</a>  (IRAD::Util::Parameters &amp;deviceParameters, std::vector&lt; IRAD::Util::Parameters &gt; &amp;componentParameters)</dt>
 <dd>This need consistency checks so that we ensure that data needed to initialize the mesh is read in appropriately.  </dd>
-<dt><a class="anchor" id="_todo000008"></a>Member <a class="el" href="classICED_1_1HalfCell_1_1DeviceData.html#a9e170c875ec6749900cb89bfb977379a">DeviceData::CopyDataFromComponents</a>  ()</dt>
+<dt><a class="anchor" id="_todo000008"></a>Member <a class="el" href="classICED_1_1HalfCell_1_1DeviceData_a9e170c875ec6749900cb89bfb977379a.html#a9e170c875ec6749900cb89bfb977379a">DeviceData::CopyDataFromComponents</a>  ()</dt>
 <dd>Add support for jacobian.  </dd>
-<dt><a class="anchor" id="_todo000009"></a>Member <a class="el" href="classICED_1_1HalfCell_1_1DeviceData.html#af4d13d54a16ba494be74358656df1381">DeviceData::CopyDeviceToGlobalStorage</a>  ()</dt>
+<dt><a class="anchor" id="_todo000009"></a>Member <a class="el" href="classICED_1_1HalfCell_1_1DeviceData_af4d13d54a16ba494be74358656df1381.html#af4d13d54a16ba494be74358656df1381">DeviceData::CopyDeviceToGlobalStorage</a>  ()</dt>
 <dd>Add support for jacobian.  </dd>
-<dt><a class="anchor" id="_todo000007"></a>Member <a class="el" href="classICED_1_1HalfCell_1_1DeviceData.html#abea9dd513340105152db94ed9f24211a">DeviceData::SetupGlobalData</a>  ()</dt>
+<dt><a class="anchor" id="_todo000004"></a>Member <a class="el" href="classICED_1_1HalfCell_1_1DeviceData_a98b1050f09da390896f964fb7a892391.html#a98b1050f09da390896f964fb7a892391">DeviceData::Initialize</a>  ()</dt>
+<dd>This capability is duplicated in the SolutionData class. Need to refactor this into it's own class.  </dd>
+<dt><a class="anchor" id="_todo000005"></a>Member <a class="el" href="classICED_1_1HalfCell_1_1DeviceData_a9dce6b5d6a4272a04fb399b6b7723c96.html#a9dce6b5d6a4272a04fb399b6b7723c96">DeviceData::LoadComponents</a>  (IRAD::Util::Parameters params)</dt>
+<dd>similar functionality to SetData, but for components. Review for refactor  </dd>
+<dt><a class="anchor" id="_todo000007"></a>Member <a class="el" href="classICED_1_1HalfCell_1_1DeviceData_abea9dd513340105152db94ed9f24211a.html#abea9dd513340105152db94ed9f24211a">DeviceData::SetupGlobalData</a>  ()</dt>
 <dd>Look into replacing this structure with the Intrepid package in trilinos  </dd>
-<dt><a class="anchor" id="_todo000011"></a>Member <a class="el" href="classICED_1_1HalfCell_1_1Diffusion.html#acfbdf2d6a1bd474786c2f1c0bdf14dde">Diffusion::SolvePhysics</a>  ()</dt>
+<dt><a class="anchor" id="_todo000011"></a>Member <a class="el" href="classICED_1_1HalfCell_1_1Diffusion_acfbdf2d6a1bd474786c2f1c0bdf14dde.html#acfbdf2d6a1bd474786c2f1c0bdf14dde">Diffusion::SolvePhysics</a>  ()</dt>
 <dd>add unit test for non-uniform grid spacing at the boundary nodes  </dd>
-<dt><a class="anchor" id="_todo000010"></a>Member <a class="el" href="namespaceICED.html#a4cc78661909b0a33b6b886a4d4290997">ICED::ExampleFunction</a>  (const std::string &amp;instring)</dt>
+<dt><a class="anchor" id="_todo000010"></a>Member <a class="el" href="namespaceICED_a4cc78661909b0a33b6b886a4d4290997.html#a4cc78661909b0a33b6b886a4d4290997">ICED::ExampleFunction</a>  (const std::string &amp;instring)</dt>
 <dd>Nothing to do on this example function. </dd>
-<dt><a class="anchor" id="_todo000014"></a>Member <a class="el" href="classICED_1_1HalfCell_1_1Intercalation.html#abe661c3679eae6d6f40f0d6c4f38442b">Intercalation::CalcATK</a>  (const double &amp;tau)</dt>
+<dt><a class="anchor" id="_todo000019"></a>Member <a class="el" href="namespaceICED_1_1HalfCell_a55b082d5ba8d68accf6f0052d68650f0.html#a55b082d5ba8d68accf6f0052d68650f0">ICED::HalfCell::SetupSolver</a>  (Teuchos::RCP&lt; DeviceData &gt; &amp;device)</dt>
+<dd>Parameterize the options for the NOX solver and enable them as file input through the device input file.  </dd>
+<dt><a class="anchor" id="_todo000014"></a>Member <a class="el" href="classICED_1_1HalfCell_1_1Intercalation_abe661c3679eae6d6f40f0d6c4f38442b.html#abe661c3679eae6d6f40f0d6c4f38442b">Intercalation::CalcATK</a>  (const double &amp;tau)</dt>
 <dd>We should test this assumption (should be easy with a unit test). The long-time solution is used when <img class="formulaInl" alt="$\tau$" src="form_57.png"/> &gt; 0.06. This solution assumes spherical particles.  </dd>
-<dt><a class="anchor" id="_todo000013"></a>Member <a class="el" href="classICED_1_1HalfCell_1_1Intercalation.html#acfbdf2d6a1bd474786c2f1c0bdf14dde">Intercalation::SolvePhysics</a>  ()</dt>
+<dt><a class="anchor" id="_todo000013"></a>Member <a class="el" href="classICED_1_1HalfCell_1_1Intercalation_acfbdf2d6a1bd474786c2f1c0bdf14dde.html#acfbdf2d6a1bd474786c2f1c0bdf14dde">Intercalation::SolvePhysics</a>  ()</dt>
 <dd>This is in need of a refactor. Once we are able to do problems of any size, we need to check the performance of of our list data structures. Surely there is a better way to implement this function.  </dd>
-<dt><a class="anchor" id="_todo000016"></a>Member <a class="el" href="classICED_1_1HalfCell_1_1SolutionData.html#a16b07d4b06e74431a0783cbd6dd6e731">SolutionData::SetData</a>  (IRAD::Util::Parameters params)</dt>
+<dt><a class="anchor" id="_todo000016"></a>Member <a class="el" href="classICED_1_1HalfCell_1_1SolutionData_a16b07d4b06e74431a0783cbd6dd6e731.html#a16b07d4b06e74431a0783cbd6dd6e731">SolutionData::SetData</a>  (IRAD::Util::Parameters params)</dt>
 <dd>Add test  </dd>
-<dt><a class="anchor" id="_todo000023"></a>Member <a class="el" href="classICED_1_1TestingObject.html#a52e8717a9250914a1069400f5b3ec24f">TestingObject&lt; ResultsType &gt;::ListTests</a>  ()</dt>
+<dt><a class="anchor" id="_todo000017"></a>Class <a class="el" href="classICED_1_1HalfCell_1_1SolverInterface.html">SolverInterface</a>  </dt>
+<dd>This class currently implements a Forward and Backward Euler transient solution method. These should be replaced with an interface to Rythmos to gain access to a larger number of numerical solvers.  </dd>
+<dt><a class="anchor" id="_todo000025"></a>Member <a class="el" href="classICED_1_1TestingObject_a52e8717a9250914a1069400f5b3ec24f.html#a52e8717a9250914a1069400f5b3ec24f">TestingObject&lt; ResultsType &gt;::ListTests</a>  ()</dt>
 <dd>Refactor the whole calling all, calling by name, listing name functionality Right now I have to define the tests and their names in at least two, sometimes three places. Maybe each test should be encapsulated into a test object that can have a name member data, also, we could specify whether or not a test is enabled.  </dd>
-<dt><a class="anchor" id="_todo000021"></a>Member <a class="el" href="classICED_1_1TestingObject.html#ac9ccd9d107fbdc6f3e61cf3485bdf282">TestingObject&lt; ResultsType &gt;::Test__SolverBE</a>  (ResultsType &amp;result)</dt>
+<dt><a class="anchor" id="_todo000023"></a>Member <a class="el" href="classICED_1_1TestingObject_ac9ccd9d107fbdc6f3e61cf3485bdf282.html#ac9ccd9d107fbdc6f3e61cf3485bdf282">TestingObject&lt; ResultsType &gt;::Test__SolverBE</a>  (ResultsType &amp;result)</dt>
 <dd>add test with non-linear heat transfer coefficient  </dd>
-<dt><a class="anchor" id="_todo000022"></a>Member <a class="el" href="classICED_1_1TestingObject.html#a0e201e1d24473d26262c6eaf813f2b9a">TestingObject&lt; ResultsType &gt;::Test__SolverBENL</a>  (ResultsType &amp;result)</dt>
+<dt><a class="anchor" id="_todo000024"></a>Member <a class="el" href="classICED_1_1TestingObject_a0e201e1d24473d26262c6eaf813f2b9a.html#a0e201e1d24473d26262c6eaf813f2b9a">TestingObject&lt; ResultsType &gt;::Test__SolverBENL</a>  (ResultsType &amp;result)</dt>
 <dd>add test with non-linear heat transfer coefficient  </dd>
-<dt><a class="anchor" id="_todo000020"></a>Member <a class="el" href="classICED_1_1TestingObject.html#aba9f755f439390be1c37cb4244ababfa">TestingObject&lt; ResultsType &gt;::Test__SolverFE</a>  (ResultsType &amp;result)</dt>
+<dt><a class="anchor" id="_todo000022"></a>Member <a class="el" href="classICED_1_1TestingObject_aba9f755f439390be1c37cb4244ababfa.html#aba9f755f439390be1c37cb4244ababfa">TestingObject&lt; ResultsType &gt;::Test__SolverFE</a>  (ResultsType &amp;result)</dt>
 <dd>add test with non-linear heat transfer coefficient  </dd>
-<dt><a class="anchor" id="_todo000019"></a>Member <a class="el" href="classICED_1_1TestingObject.html#a4f0fbceeaabd0d88369dbc7c48b8e7c0">TestingObject&lt; ResultsType &gt;::Test__SteadySolver</a>  (ResultsType &amp;result)</dt>
+<dt><a class="anchor" id="_todo000021"></a>Member <a class="el" href="classICED_1_1TestingObject_a4f0fbceeaabd0d88369dbc7c48b8e7c0.html#a4f0fbceeaabd0d88369dbc7c48b8e7c0">TestingObject&lt; ResultsType &gt;::Test__SteadySolver</a>  (ResultsType &amp;result)</dt>
 <dd>add test with non-linear heat transfer coefficient  </dd>
-<dt><a class="anchor" id="_todo000018"></a>Member <a class="el" href="classICED_1_1TestingObject.html#ad4813398638d788d836516151bd347ec">TestingObject&lt; ResultsType &gt;::Test__UnsteadySolver</a>  (ResultsType &amp;result)</dt>
+<dt><a class="anchor" id="_todo000020"></a>Member <a class="el" href="classICED_1_1TestingObject_ad4813398638d788d836516151bd347ec.html#ad4813398638d788d836516151bd347ec">TestingObject&lt; ResultsType &gt;::Test__UnsteadySolver</a>  (ResultsType &amp;result)</dt>
 <dd>add test with non-linear heat transfer coefficient  </dd>
-<dt><a class="anchor" id="_todo000012"></a>Member <a class="el" href="classICED_1_1HalfCell_1_1TransferenceNumber.html#acfbdf2d6a1bd474786c2f1c0bdf14dde">TransferenceNumber::SolvePhysics</a>  ()</dt>
+<dt><a class="anchor" id="_todo000012"></a>Member <a class="el" href="classICED_1_1HalfCell_1_1TransferenceNumber_acfbdf2d6a1bd474786c2f1c0bdf14dde.html#acfbdf2d6a1bd474786c2f1c0bdf14dde">TransferenceNumber::SolvePhysics</a>  ()</dt>
 <dd>We will probably want to create a 4th submodule for the IonicConductivity coefficient.  </dd>
-<dt><a class="anchor" id="_todo000017"></a>Class <a class="el" href="classICED_1_1HalfCell_1_1TransientSolverInterface.html">TransientSolverInterface</a>  </dt>
+<dt><a class="anchor" id="_todo000018"></a>Class <a class="el" href="classICED_1_1HalfCell_1_1TransientSolverInterface.html">TransientSolverInterface</a>  </dt>
 <dd><p class="startdd">Beef up this discussion. </p>
 <p class="enddd">add support for the global type </p>
 </dd>
@@ -151,7 +153,7 @@ $(document).ready(function(){initNavTree('todo.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Nov 10 2015 16:35:51 for ICED_Physics by
+    <li class="footer">Generated on Mon Nov 23 2015 13:10:50 for ICED_Physics by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

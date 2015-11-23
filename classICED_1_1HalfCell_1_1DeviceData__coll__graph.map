@@ -1,5 +1,5 @@
 <map id="DeviceData" name="DeviceData">
-<area shape="rect" id="node7" href="$classICED_1_1HalfCell_1_1DeviceComponent.html" title="Class to hold the solution data for the electro&#45;chemical device solver. " alt="" coords="2176,567,2307,593"/>
+<area shape="rect" id="node7" href="$classICED_1_1HalfCell_1_1DeviceComponent.html" title="Class that provides the component level interface between the electro&#45;chemical device solver and the ..." alt="" coords="2176,567,2307,593"/>
 <area shape="rect" id="node9" href="$classICED_1_1HalfCell_1_1PhysicsModule.html" title="Virtual class for physics modules. " alt="" coords="1537,292,1647,319"/>
 <area shape="rect" id="node10" href="$classICED_1_1HalfCell_1_1SolutionData.html" title="Class to hold the solution data for the electro&#45;chemical device solver. " alt="" coords="1217,555,1314,581"/>
 <area shape="rect" id="node4" title="STL class. " alt="" coords="177,665,268,692"/>

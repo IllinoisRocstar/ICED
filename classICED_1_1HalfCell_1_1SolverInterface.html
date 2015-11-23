@@ -103,371 +103,47 @@ $(document).ready(function(){initNavTree('classICED_1_1HalfCell_1_1SolverInterfa
  <a href="classICED_1_1HalfCell_1_1SolverInterface.html#details">More...</a></p>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class to hold the interface to the Trilinos NOX Solver. </p>
-<p><a class="el" href="classICED_1_1HalfCell_1_1SolverInterface.html" title="Class to hold the interface to the Trilinos NOX Solver. ">SolverInterface</a> defines the interface between NOX and the nonlinear problem to solve. Its constructor accepts a PDEProblem object, which it uses to update the Jacobian and compute F(x). This interface is a bit crude; for example, it does not provide a PrecMatrix or Preconditioner. </p>
+<p><a class="el" href="classICED_1_1HalfCell_1_1SolverInterface.html" title="Class to hold the interface to the Trilinos NOX Solver. ">SolverInterface</a> defines the interface between NOX and the nonlinear problem to solve. Its constructor accepts a PDEProblem object, which it uses to update the Jacobian and compute F(x). This interface is a bit crude; for example, it does not provide a PrecMatrix or Preconditioner.</p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000017">Todo:</a></b></dt><dd>This class currently implements a Forward and Backward Euler transient solution method. These should be replaced with an interface to Rythmos to gain access to a larger number of numerical solvers. </dd></dl>
 
-<p>Definition at line <a class="el" href="Solver_8hpp_source.html#l00045">45</a> of file <a class="el" href="Solver_8hpp_source.html">Solver.hpp</a>.</p>
+<p>Definition at line <a class="el" href="Solver_8hpp_source.html#l00050">50</a> of file <a class="el" href="Solver_8hpp_source.html">Solver.hpp</a>.</p>
 </div>
 <p><code>#include &lt;<a class="el" href="Solver_8hpp_source.html">Physics/include/Solver.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aae57140efdf17f16c369d559f924d37f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classICED_1_1HalfCell_1_1SolverInterface.html#aae57140efdf17f16c369d559f924d37f">SolverInterface</a> (Teuchos::RCP&lt; <a class="el" href="classICED_1_1HalfCell_1_1DeviceData.html">DeviceData</a> &gt; device)</td></tr>
+<tr class="memitem:aae57140efdf17f16c369d559f924d37f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classICED_1_1HalfCell_1_1SolverInterface_aae57140efdf17f16c369d559f924d37f.html#aae57140efdf17f16c369d559f924d37f">SolverInterface</a> (Teuchos::RCP&lt; <a class="el" href="classICED_1_1HalfCell_1_1DeviceData.html">DeviceData</a> &gt; device)</td></tr>
 <tr class="memdesc:aae57140efdf17f16c369d559f924d37f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solver Interface.  <a href="#aae57140efdf17f16c369d559f924d37f">More...</a><br/></td></tr>
 <tr class="separator:aae57140efdf17f16c369d559f924d37f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03a30d54ae0f53cdec1c3db1100e7c3a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classICED_1_1HalfCell_1_1SolverInterface.html#a03a30d54ae0f53cdec1c3db1100e7c3a">~SolverInterface</a> ()</td></tr>
+<tr class="memitem:a03a30d54ae0f53cdec1c3db1100e7c3a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classICED_1_1HalfCell_1_1SolverInterface_a03a30d54ae0f53cdec1c3db1100e7c3a.html#a03a30d54ae0f53cdec1c3db1100e7c3a">~SolverInterface</a> ()</td></tr>
 <tr class="memdesc:a03a30d54ae0f53cdec1c3db1100e7c3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solver Interface Destructor.  <a href="#a03a30d54ae0f53cdec1c3db1100e7c3a">More...</a><br/></td></tr>
 <tr class="separator:a03a30d54ae0f53cdec1c3db1100e7c3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7185896d964719c23d717704ceb14640"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classICED_1_1HalfCell_1_1SolverInterface.html#a7185896d964719c23d717704ceb14640">computeF</a> (const Epetra_Vector &amp;x, Epetra_Vector &amp;f, NOX::Epetra::Interface::Required::FillType F)</td></tr>
+<tr class="memitem:a7185896d964719c23d717704ceb14640"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classICED_1_1HalfCell_1_1SolverInterface_a7185896d964719c23d717704ceb14640.html#a7185896d964719c23d717704ceb14640">computeF</a> (const Epetra_Vector &amp;x, Epetra_Vector &amp;f, NOX::Epetra::Interface::Required::FillType F)</td></tr>
 <tr class="memdesc:a7185896d964719c23d717704ceb14640"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementation of computeF.  <a href="#a7185896d964719c23d717704ceb14640">More...</a><br/></td></tr>
 <tr class="separator:a7185896d964719c23d717704ceb14640"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92f40fba25ee85e3604e9287529d9f66"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classICED_1_1HalfCell_1_1SolverInterface.html#a92f40fba25ee85e3604e9287529d9f66">computeJacobian</a> (const Epetra_Vector &amp;x, Epetra_Operator &amp;Jac)</td></tr>
+<tr class="memitem:a92f40fba25ee85e3604e9287529d9f66"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classICED_1_1HalfCell_1_1SolverInterface_a92f40fba25ee85e3604e9287529d9f66.html#a92f40fba25ee85e3604e9287529d9f66">computeJacobian</a> (const Epetra_Vector &amp;x, Epetra_Operator &amp;Jac)</td></tr>
 <tr class="memdesc:a92f40fba25ee85e3604e9287529d9f66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementation of computeJacobian.  <a href="#a92f40fba25ee85e3604e9287529d9f66">More...</a><br/></td></tr>
 <tr class="separator:a92f40fba25ee85e3604e9287529d9f66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a13625abcae6a358e0aa4b121bf2ae64a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classICED_1_1HalfCell_1_1SolverInterface.html#a13625abcae6a358e0aa4b121bf2ae64a">computePrecMatrix</a> (const Epetra_Vector &amp;x, Epetra_RowMatrix &amp;M)</td></tr>
+<tr class="memitem:a13625abcae6a358e0aa4b121bf2ae64a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classICED_1_1HalfCell_1_1SolverInterface_a13625abcae6a358e0aa4b121bf2ae64a.html#a13625abcae6a358e0aa4b121bf2ae64a">computePrecMatrix</a> (const Epetra_Vector &amp;x, Epetra_RowMatrix &amp;M)</td></tr>
 <tr class="separator:a13625abcae6a358e0aa4b121bf2ae64a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af942b4bebd9c9e37e6319b8ecf3d4b3d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classICED_1_1HalfCell_1_1SolverInterface.html#af942b4bebd9c9e37e6319b8ecf3d4b3d">computePreconditioner</a> (const Epetra_Vector &amp;x, Epetra_Operator &amp;O)</td></tr>
+<tr class="memitem:af942b4bebd9c9e37e6319b8ecf3d4b3d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classICED_1_1HalfCell_1_1SolverInterface_af942b4bebd9c9e37e6319b8ecf3d4b3d.html#af942b4bebd9c9e37e6319b8ecf3d4b3d">computePreconditioner</a> (const Epetra_Vector &amp;x, Epetra_Operator &amp;O)</td></tr>
 <tr class="separator:af942b4bebd9c9e37e6319b8ecf3d4b3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a4bf8e262f3cd18ffa5d9eb3a6270e93f"><td class="memItemLeft" align="right" valign="top">Teuchos::RCP&lt; <a class="el" href="classICED_1_1HalfCell_1_1DeviceData.html">DeviceData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classICED_1_1HalfCell_1_1SolverInterface.html#a4bf8e262f3cd18ffa5d9eb3a6270e93f">pDevice</a></td></tr>
+<tr class="memitem:a4bf8e262f3cd18ffa5d9eb3a6270e93f"><td class="memItemLeft" align="right" valign="top">Teuchos::RCP&lt; <a class="el" href="classICED_1_1HalfCell_1_1DeviceData.html">DeviceData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classICED_1_1HalfCell_1_1SolverInterface_a4bf8e262f3cd18ffa5d9eb3a6270e93f.html#a4bf8e262f3cd18ffa5d9eb3a6270e93f">pDevice</a></td></tr>
 <tr class="separator:a4bf8e262f3cd18ffa5d9eb3a6270e93f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <div class="dynheader">
 Inheritance diagram for SolverInterface:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classICED_1_1HalfCell_1_1SolverInterface__inherit__graph.svg" width="296" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classICED_1_1HalfCell_1_1SolverInterface__inherit__graph.svg" width="296" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for SolverInterface:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classICED_1_1HalfCell_1_1SolverInterface__coll__graph.svg" width="296" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classICED_1_1HalfCell_1_1SolverInterface__coll__graph.svg" width="296" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="aae57140efdf17f16c369d559f924d37f"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classICED_1_1HalfCell_1_1SolverInterface.html">SolverInterface</a> </td>
-          <td>(</td>
-          <td class="paramtype">Teuchos::RCP&lt; <a class="el" href="classICED_1_1HalfCell_1_1DeviceData.html">DeviceData</a> &gt;&#160;</td>
-          <td class="paramname"><em>device</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Solver Interface. </p>
-<p>The constructor takes a <a class="el" href="classICED_1_1HalfCell_1_1DeviceData.html" title="Class to hold the solution data for the electro-chemical device solver. ">DeviceData</a> pointer.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">device</td><td>Pointer to the global solution data (device) </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Definition at line <a class="el" href="Solver_8hpp_source.html#l00061">61</a> of file <a class="el" href="Solver_8hpp_source.html">Solver.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    : <a class="code" href="classICED_1_1HalfCell_1_1SolverInterface.html#a4bf8e262f3cd18ffa5d9eb3a6270e93f">pDevice</a>(device) {}</div>
-<div class="ttc" id="classICED_1_1HalfCell_1_1SolverInterface_html_a4bf8e262f3cd18ffa5d9eb3a6270e93f"><div class="ttname"><a href="classICED_1_1HalfCell_1_1SolverInterface.html#a4bf8e262f3cd18ffa5d9eb3a6270e93f">ICED::HalfCell::SolverInterface::pDevice</a></div><div class="ttdeci">Teuchos::RCP&lt; DeviceData &gt; pDevice</div><div class="ttdef"><b>Definition:</b> <a href="Solver_8hpp_source.html#l00158">Solver.hpp:158</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a class="anchor" id="a03a30d54ae0f53cdec1c3db1100e7c3a"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">~<a class="el" href="classICED_1_1HalfCell_1_1SolverInterface.html">SolverInterface</a> </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Solver Interface Destructor. </p>
-<p>The destructor doesn't need to do anything, because RCPs are smart pointers; they handle deallocation automatically. </p>
-
-<p>Definition at line <a class="el" href="Solver_8hpp_source.html#l00070">70</a> of file <a class="el" href="Solver_8hpp_source.html">Solver.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;{}</div>
-</div><!-- fragment -->
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a7185896d964719c23d717704ceb14640"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool computeF </td>
-          <td>(</td>
-          <td class="paramtype">const Epetra_Vector &amp;&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Epetra_Vector &amp;&#160;</td>
-          <td class="paramname"><em>f</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">NOX::Epetra::Interface::Required::FillType&#160;</td>
-          <td class="paramname"><em>F</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implementation of computeF. </p>
-<p>This implements the abstract computeF function from the NOX::Epetra::Interface::Required class. This provides NOX with the set of nonlinear equations.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">x</td><td>Solution Data </td></tr>
-    <tr><td class="paramname">f</td><td>Computed function </td></tr>
-    <tr><td class="paramname">F</td><td>FillType. Tells computeF what the evaluation is used for</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>bool</dd></dl>
-<dl class="test"><dt><b><a class="el" href="test.html#_test000046">Test:</a></b></dt><dd>None </dd></dl>
-
-<p>Definition at line <a class="el" href="Solver_8hpp_source.html#l00087">87</a> of file <a class="el" href="Solver_8hpp_source.html">Solver.hpp</a>.</p>
-
-<p>References <a class="el" href="Solver_8hpp_source.html#l00158">SolverInterface::pDevice</a>.</p>
-<div class="fragment"><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;                                                       {</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;  <span class="comment">// I can&#39;t use multivectors here, the interface does no appear to </span></div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;  <span class="comment">// support it.</span></div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;  <span class="comment">//bool computeF (const Epetra_MultiVector&amp; x, Epetra_MultiVector&amp; f, </span></div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;                 <span class="comment">//NOX::Epetra::Interface::Required::FillType F) {</span></div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    std::ostringstream Ostr;</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="comment">    if (F == Residual) {</span></div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="comment">      std::cout &lt;&lt; &quot;Before DeviceAssembleF, printing x&quot; &lt;&lt; std::endl;</span></div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="comment">      x.Print(std::cout);</span></div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="comment">      //std::cout &lt;&lt; &quot;Before DeviceAssembleF, printing f&quot; &lt;&lt; std::endl;</span></div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="comment">      //f.Print(std::cout);</span></div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="comment">    }</span></div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="comment">*/</span></div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <a class="code" href="classICED_1_1HalfCell_1_1SolverInterface.html#a4bf8e262f3cd18ffa5d9eb3a6270e93f">pDevice</a>-&gt;DeviceAssembleF (x, f);</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;<span class="comment">    if (F == Residual) {</span></div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;<span class="comment">      std::cout &lt;&lt; &quot;After DeviceAssembleF, printing x&quot; &lt;&lt; std::endl;</span></div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;<span class="comment">      x.Print(std::cout);</span></div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="comment">      std::cout &lt;&lt; &quot;After DeviceAssembleF, printing f&quot; &lt;&lt; std::endl;</span></div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;<span class="comment">      f.Print(std::cout);</span></div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;<span class="comment">    }</span></div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;<span class="comment">*/</span></div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;   </div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <span class="comment">//StdOut(Ostr.str(),2);</span></div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;  }</div>
-<div class="ttc" id="classICED_1_1HalfCell_1_1SolverInterface_html_a4bf8e262f3cd18ffa5d9eb3a6270e93f"><div class="ttname"><a href="classICED_1_1HalfCell_1_1SolverInterface.html#a4bf8e262f3cd18ffa5d9eb3a6270e93f">ICED::HalfCell::SolverInterface::pDevice</a></div><div class="ttdeci">Teuchos::RCP&lt; DeviceData &gt; pDevice</div><div class="ttdef"><b>Definition:</b> <a href="Solver_8hpp_source.html#l00158">Solver.hpp:158</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a class="anchor" id="a92f40fba25ee85e3604e9287529d9f66"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool computeJacobian </td>
-          <td>(</td>
-          <td class="paramtype">const Epetra_Vector &amp;&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Epetra_Operator &amp;&#160;</td>
-          <td class="paramname"><em>Jac</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implementation of computeJacobian. </p>
-<p>This replaces the default computeJacobian from the NOX::Epetra::Interface::Jacobian class. This provides NOX with the Jacobian for the set of nonlinear equations</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">x</td><td>Solution Data </td></tr>
-    <tr><td class="paramname">Jac</td><td>Jacobian Operator</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>bool</dd></dl>
-<dl class="test"><dt><b><a class="el" href="test.html#_test000047">Test:</a></b></dt><dd>None </dd></dl>
-
-<p>Definition at line <a class="el" href="Solver_8hpp_source.html#l00135">135</a> of file <a class="el" href="Solver_8hpp_source.html">Solver.hpp</a>.</p>
-
-<p>References <a class="el" href="Solver_8hpp_source.html#l00158">SolverInterface::pDevice</a>.</p>
-<div class="fragment"><div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;                                                                      {</div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    <span class="comment">// this line should be replaced with whatever subroutine in DeviceData assembles the Jacobian</span></div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    <span class="comment">//device_-&gt;DeviceAssembleJacobian(x, Jac);</span></div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    <a class="code" href="classICED_1_1HalfCell_1_1SolverInterface.html#a4bf8e262f3cd18ffa5d9eb3a6270e93f">pDevice</a>-&gt;DeviceAssembleJacobian(x);</div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    std::cout &lt;&lt; <span class="stringliteral">&quot;I should never get here!!!&quot;</span> &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;  }</div>
-<div class="ttc" id="classICED_1_1HalfCell_1_1SolverInterface_html_a4bf8e262f3cd18ffa5d9eb3a6270e93f"><div class="ttname"><a href="classICED_1_1HalfCell_1_1SolverInterface.html#a4bf8e262f3cd18ffa5d9eb3a6270e93f">ICED::HalfCell::SolverInterface::pDevice</a></div><div class="ttdeci">Teuchos::RCP&lt; DeviceData &gt; pDevice</div><div class="ttdef"><b>Definition:</b> <a href="Solver_8hpp_source.html#l00158">Solver.hpp:158</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a class="anchor" id="a13625abcae6a358e0aa4b121bf2ae64a"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool computePrecMatrix </td>
-          <td>(</td>
-          <td class="paramtype">const Epetra_Vector &amp;&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Epetra_RowMatrix &amp;&#160;</td>
-          <td class="paramname"><em>M</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="Solver_8hpp_source.html#l00143">143</a> of file <a class="el" href="Solver_8hpp_source.html">Solver.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;  {</div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;    <span class="keywordflow">throw</span> std::runtime_error (<span class="stringliteral">&quot;*** SimpleProblemInterface does not implement &quot;</span></div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;                              <span class="stringliteral">&quot;computing an explicit preconditioner from an &quot;</span></div>
-<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;                              <span class="stringliteral">&quot;Epetra_RowMatrix ***&quot;</span>);</div>
-<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;  }  </div>
-</div><!-- fragment -->
-</div>
-</div>
-<a class="anchor" id="af942b4bebd9c9e37e6319b8ecf3d4b3d"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool computePreconditioner </td>
-          <td>(</td>
-          <td class="paramtype">const Epetra_Vector &amp;&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Epetra_Operator &amp;&#160;</td>
-          <td class="paramname"><em>O</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="Solver_8hpp_source.html#l00150">150</a> of file <a class="el" href="Solver_8hpp_source.html">Solver.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;  {</div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    <span class="keywordflow">throw</span> std::runtime_error (<span class="stringliteral">&quot;*** SimpleProblemInterface does not implement &quot;</span></div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;                              <span class="stringliteral">&quot;computing an explicit preconditioner from an &quot;</span></div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;                              <span class="stringliteral">&quot;Epetra_Operator ***&quot;</span>);</div>
-<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;  }  </div>
-</div><!-- fragment -->
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a4bf8e262f3cd18ffa5d9eb3a6270e93f"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Teuchos::RCP&lt;<a class="el" href="classICED_1_1HalfCell_1_1DeviceData.html">DeviceData</a>&gt; pDevice</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="Solver_8hpp_source.html#l00158">158</a> of file <a class="el" href="Solver_8hpp_source.html">Solver.hpp</a>.</p>
-
-<p>Referenced by <a class="el" href="Solver_8hpp_source.html#l00087">SolverInterface::computeF()</a>, <a class="el" href="Solver_8hpp_source.html#l00135">SolverInterface::computeJacobian()</a>, <a class="el" href="Solver_8hpp_source.html#l00243">TransientSolverInterface::getdt()</a>, <a class="el" href="Solver_8hpp_source.html#l00240">TransientSolverInterface::setdt()</a>, <a class="el" href="Solver_8cpp_source.html#l00083">TransientSolverInterface::TransientBackwardEuler()</a>, <a class="el" href="Solver_8cpp_source.html#l00019">TransientSolverInterface::TransientForwardEuler()</a>, and <a class="el" href="Solver_8cpp_source.html#l00150">TransientSolverInterface::TransientSolver()</a>.</p>
-
-</div>
-</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="Solver_8hpp_source.html">Solver.hpp</a></li>
 </ul>
@@ -477,7 +153,7 @@ Collaboration diagram for SolverInterface:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceICED.html">ICED</a></li><li class="navelem"><a class="el" href="namespaceICED_1_1HalfCell.html">HalfCell</a></li><li class="navelem"><a class="el" href="classICED_1_1HalfCell_1_1SolverInterface.html">SolverInterface</a></li>
-    <li class="footer">Generated on Tue Nov 10 2015 16:35:52 for ICED_Physics by
+    <li class="footer">Generated on Mon Nov 23 2015 13:10:50 for ICED_Physics by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

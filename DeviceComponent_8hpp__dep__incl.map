@@ -1,6 +1,6 @@
 <map id="DeviceComponent.hpp" name="DeviceComponent.hpp">
 <area shape="rect" id="node2" href="$DeviceData_8hpp.html" title="C++ header file for the DeviceData class. " alt="" coords="359,80,475,107"/>
-<area shape="rect" id="node13" href="$DeviceComponent_8cpp.html" title="C++ source code for the Device Component class. " alt="" coords="500,80,655,107"/>
+<area shape="rect" id="node13" href="$DeviceComponent_8cpp.html" title="C++ source code for the DeviceComponent class. " alt="" coords="500,80,655,107"/>
 <area shape="rect" id="node3" href="$Solver_8hpp.html" title="C++ header file for the SolutionData class. " alt="" coords="314,155,397,181"/>
 <area shape="rect" id="node10" href="$DeviceData_8cpp.html" title="C++ source code for the DeviceData class. " alt="" coords="5,229,120,256"/>
 <area shape="rect" id="node11" href="$HalfCell_8cpp.html" title="Solver for a battery half cell. " alt="" coords="453,229,547,256"/>

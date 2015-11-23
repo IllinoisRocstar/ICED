@@ -104,7 +104,7 @@ $(document).ready(function(){initNavTree('DeviceData_8hpp.html','');});
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>C++ header file for the DeviceData class. </p>
 <dl class="section author"><dt>Author</dt><dd>Mike Anderson (<a href="#" onclick="location.href='mai'+'lto:'+'mja'+'nd'+'ers'+'on'+'@il'+'li'+'noi'+'sr'+'ocs'+'ta'+'r.c'+'om'; return false;">mjand<span style="display: none;">.nosp@m.</span>erso<span style="display: none;">.nosp@m.</span>n@ill<span style="display: none;">.nosp@m.</span>inoi<span style="display: none;">.nosp@m.</span>srocs<span style="display: none;">.nosp@m.</span>tar.<span style="display: none;">.nosp@m.</span>com</a>)</dd></dl>
-<p>DeviceData is a convenience object to hold device specific data solution data for the monolithic battery solver. </p>
+<p>DeviceData provides the interface between the component level solution and the global device level solution. It provides funcitonality required to transfer data in both directions and provides an interface to the Trilinos solvers. </p>
 
 <p>Definition in file <a class="el" href="DeviceData_8hpp_source.html">DeviceData.hpp</a>.</p>
 </div><div class="textblock"><code>#include &quot;Parameters.H&quot;</code><br/>
@@ -122,14 +122,12 @@ $(document).ready(function(){initNavTree('DeviceData_8hpp.html','');});
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for DeviceData.hpp:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="DeviceData_8hpp__incl.svg" width="100%" height="564"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="DeviceData_8hpp__incl.svg" width="100%" height="564"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="DeviceData_8hpp__dep__incl.svg" width="574" height="411"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="DeviceData_8hpp__dep__incl.svg" width="574" height="411"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 <p><a href="DeviceData_8hpp_source.html">Go to the source code of this file.</a></p>
@@ -137,7 +135,7 @@ This graph shows which files directly or indirectly include this file:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classICED_1_1HalfCell_1_1DeviceData.html">DeviceData</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class to hold the solution data for the electro-chemical device solver.  <a href="classICED_1_1HalfCell_1_1DeviceData.html#details">More...</a><br/></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class to hold the solution data for the electro-chemical device solver and interface to the Trilinos solvers/data structures.  <a href="classICED_1_1HalfCell_1_1DeviceData.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -150,31 +148,16 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:aef6196eda62f10af155180a9323ef1a2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="DeviceData_8hpp.html#aef6196eda62f10af155180a9323ef1a2">__DEVICEDATA_H__</a></td></tr>
+<tr class="memitem:aef6196eda62f10af155180a9323ef1a2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="DeviceData_8hpp_aef6196eda62f10af155180a9323ef1a2.html#aef6196eda62f10af155180a9323ef1a2">__DEVICEDATA_H__</a></td></tr>
 <tr class="separator:aef6196eda62f10af155180a9323ef1a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a class="anchor" id="aef6196eda62f10af155180a9323ef1a2"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define __DEVICEDATA_H__</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="DeviceData_8hpp_source.html#l00026">26</a> of file <a class="el" href="DeviceData_8hpp_source.html">DeviceData.hpp</a>.</p>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_fd3a82303f5206df56505f8b5712131f.html">Physics</a></li><li class="navelem"><a class="el" href="dir_ce8660c6c7fa5d55756fbed47e4ef58b.html">include</a></li><li class="navelem"><a class="el" href="DeviceData_8hpp.html">DeviceData.hpp</a></li>
-    <li class="footer">Generated on Tue Nov 10 2015 16:35:51 for ICED_Physics by
+    <li class="footer">Generated on Mon Nov 23 2015 13:10:49 for ICED_Physics by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

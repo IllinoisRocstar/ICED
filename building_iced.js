@@ -1,10 +1,17 @@
 var building_iced =
 [
-    [ "External Build", "external_build.html", [
-      [ "Directory preparation", "external_build.html#Dir_Prep", null ],
-      [ "Building IMPACT and IRAD", "external_build.html#IMPACT_ICED", null ],
-      [ "Building Trilinos", "external_build.html#build_trilinois", null ],
-      [ "Building ICED", "external_build.html#build_iced", null ]
+    [ "Building ICED on Linux", "external_linux.html", [
+      [ "Installation Prerequisites", "external_linux.html#install_prereqs", null ],
+      [ "Directory preparation", "external_linux.html#Dir_Prep", null ],
+      [ "Building IMPACT and IRAD", "external_linux.html#IMPACT_ICED", null ],
+      [ "Building Trilinos", "external_linux.html#build_trilinois", null ],
+      [ "Building ICED", "external_linux.html#build_iced", null ]
+    ] ],
+    [ "Building ICED on Mac", "external_mac.html", [
+      [ "Directory preparation", "external_mac.html#Dir_Prep", null ],
+      [ "Building IMPACT and IRAD", "external_mac.html#IMPACT_ICED", null ],
+      [ "Building Trilinos", "external_mac.html#build_trilinois", null ],
+      [ "Building ICED", "external_mac.html#build_iced", null ]
     ] ],
     [ "Internal Build", "internal_build.html", [
       [ "Compiler toolchain and TPLs for ICED", "internal_build.html#compile_toolchain", [

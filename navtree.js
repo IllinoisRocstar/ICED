@@ -3,6 +3,16 @@ var NAVTREE =
   [ "ICED_Physics", "index.html", [
     [ "ICED Documentation", "index.html", "index" ],
     [ "Building ICED", "building_iced.html", "building_iced" ],
+    [ "ICED Control Flow", "iced_controli_flow.html", [
+      [ "Simulation Instantiation", "iced_controli_flow.html#iced_simulation_instantiation", null ],
+      [ "Solver Execution", "iced_controli_flow.html#iced_solver_execution", null ]
+    ] ],
+    [ "External Build", "external_build.html", [
+      [ "Directory preparation", "external_build.html#Dir_Prep", null ],
+      [ "Building IMPACT and IRAD", "external_build.html#IMPACT_ICED", null ],
+      [ "Building Trilinos", "external_build.html#build_trilinois", null ],
+      [ "Building ICED", "external_build.html#build_iced", null ]
+    ] ],
     [ "Test List", "test.html", null ],
     [ "Todo List", "todo.html", null ],
     [ "Bug List", "bug.html", null ],
@@ -43,8 +53,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "ActivityCoefficient_8cpp.html",
-"classICED_1_1HalfCell_1_1DeviceData.html#af241d42f5fd3f39eb9c745804c1a7e24",
-"classICED_1_1TestingObject.html#a4f0fbceeaabd0d88369dbc7c48b8e7c0"
+"classICED_1_1HalfCell_1_1DeviceData_af241d42f5fd3f39eb9c745804c1a7e24.html#af241d42f5fd3f39eb9c745804c1a7e24",
+"classICED_1_1TestingObject_a4f0fbceeaabd0d88369dbc7c48b8e7c0.html#a4f0fbceeaabd0d88369dbc7c48b8e7c0"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
