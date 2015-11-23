@@ -1,0 +1,6 @@
+<map id="SolveComponent" name="SolveComponent">
+<area shape="rect" id="node2" href="$classICED_1_1HalfCell_1_1DeviceComponent_ac8182d981838fc978dce91b0eadefa5b.html#ac8182d981838fc978dce91b0eadefa5b" title="Apply the appropriate component boundary conditions. " alt="" coords="176,5,317,32"/>
+<area shape="rect" id="node3" href="$classICED_1_1HalfCell_1_1DeviceComponent_afa213bcdb22f5b302ef7f0339075c3a0.html#afa213bcdb22f5b302ef7f0339075c3a0" title="Apply internal boundary conditions. " alt="" coords="188,56,305,83"/>
+<area shape="rect" id="node4" href="$classICED_1_1HalfCell_1_1DeviceComponent_ae19ad2b18c0ad3874e344772a050d04d.html#ae19ad2b18c0ad3874e344772a050d04d" title="Performs finalization required after calculating component level solutions. " alt="" coords="179,107,314,133"/>
+<area shape="rect" id="node5" href="$classICED_1_1HalfCell_1_1DeviceComponent_a5cdfd806fa59b599cd9820bcf7cda2f3.html#a5cdfd806fa59b599cd9820bcf7cda2f3" title="Performs initialization required to calculate component level solutions. " alt="" coords="178,157,315,184"/>
+</map>
